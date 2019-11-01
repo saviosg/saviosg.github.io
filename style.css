@@ -1,0 +1,114 @@
+
+@media (max-width: 512px) {
+.container {
+  width: 90%;
+  margin: 0 auto;
+  
+}
+}
+
+@media (min-width: 513px) and (max-width: 1024px) {
+.container {
+  width: 80%;
+  margin: 0 auto;
+  
+}
+}
+@media (min-width: 1025px) {
+.container {
+  width: 40%;
+  margin: 0 auto;
+  
+}
+}
+
+body {
+  margin: 0;
+  background-color: #e5e6e8;
+}
+
+@media (max-width: 512px) {
+.social {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+  border-radius: 10px;
+  font-size: 30px;
+
+}
+.photo-box {
+  width: 30px;
+  margin: 5px 0;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.info {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+}
+
+@media (min-width: 513px) {
+.social {
+  width: 55px;
+  height: 55px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: right;
+  border-radius: 10px;
+  font-size: 55px;
+
+}
+
+.photo-box {
+  width: 55px;
+  margin: 5px 0;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.info {
+  width: 65px;
+  height: 65px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 45px;
+  font-style: italic;
+}
+}
+
+
+.github {
+  color: #24292e;
+}
+
+.twitter {
+  color: #1DA1F2;
+}
+
+.mastodon {
+  color: #282c37;
+}
+
+
+
+
+.presentation-box {
+  height: 125px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: bottom;
+}
